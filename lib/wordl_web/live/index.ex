@@ -1,8 +1,6 @@
 defmodule WordlWeb.WordlLive.Index do
   use WordlWeb, :live_view
 
-  alias WordlWeb.Router.Helpers, as: Routes
-
   alias Wordl.Words
   import Ecto.Changeset
 

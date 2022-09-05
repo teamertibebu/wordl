@@ -19,11 +19,6 @@ config :wordl, WordlWeb.Endpoint,
     esbuild: {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}
   ]
 
-config :wordl,
-  oxford_base_url: "https://od-api.oxforddictionaries.com/api/v2",
-  oxford_api_key: "741c92837e87a8945f898db35ae80776",
-  oxford_api_id: "891323df"
-
 # ## SSL Support
 #
 # In order to use HTTPS in development, a self-signed
